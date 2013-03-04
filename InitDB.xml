@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_07" class="java.beans.XMLDecoder">
+ <object class="beans.XMLBean">
+  <void property="chapterTree">
+   <void method="add">
+    <object class="entity.Chapter">
+     <void property="fullName">
+      <string>Java</string>
+     </void>
+     <void property="id">
+      <int>1</int>
+     </void>
+     <void property="parentId">
+      <int></int>
+     </void>
+     <void property="shortName">
+      <string>Java</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="entity.Chapter">
+     <void property="fullName">
+      <string>Java EE</string>
+     </void>
+     <void property="id">
+      <int>2</int>
+     </void>
+     <void property="parentId">
+      <int>1</int>
+     </void>
+     <void property="shortName">
+      <string>Java EE</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="entity.Chapter">
+     <void property="fullName">
+      <string>FAQ</string>
+     </void>
+     <void property="id">
+      <int>3</int>
+     </void>
+     <void property="parentId">
+      <int>2</int>
+     </void>
+     <void property="shortName">
+      <string>FAQ</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="entity.Chapter">
+     <void property="fullName">
+      <string>Spring MVC</string>
+     </void>
+     <void property="id">
+      <int>4</int>
+     </void>
+     <void property="parentId">
+      <int>2</int>
+     </void>
+     <void property="shortName">
+      <string>Spring MVC</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="entity.Chapter">
+     <void property="fullName">
+      <string>Model</string>
+     </void>
+     <void property="id">
+      <int>5</int>
+     </void>
+     <void property="parentId">
+      <int>4</int>
+     </void>
+     <void property="shortName">
+      <string>Model</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="entity.Chapter">
+     <void property="fullName">
+      <string>Controller</string>
+     </void>
+     <void property="id">
+      <int>6</int>
+     </void>
+     <void property="parentId">
+      <int>4</int>
+     </void>
+     <void property="shortName">
+      <string>Controller</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="entity.Chapter">
+     <void property="fullName">
+      <string>Views</string>
+     </void>
+     <void property="id">
+      <int>7</int>
+     </void>
+     <void property="parentId">
+      <int>4</int>
+     </void>
+     <void property="shortName">
+      <string>Views</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="entity.Chapter">
+     <void property="fullName">
+      <string>Hibernate</string>
+     </void>
+     <void property="id">
+      <int>8</int>
+     </void>
+     <void property="parentId">
+      <int>2</int>
+     </void>
+     <void property="shortName">
+      <string>Hibernate</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="entity.Chapter">
+     <void property="fullName">
+      <string>Annotations</string>
+     </void>
+     <void property="id">
+      <int>9</int>
+     </void>
+     <void property="parentId">
+      <int>8</int>
+     </void>
+     <void property="shortName">
+      <string>Annotations</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="entity.Chapter">
+     <void property="fullName">
+      <string>@ManyToOne</string>
+     </void>
+     <void property="id">
+      <int>10</int>
+     </void>
+     <void property="parentId">
+      <int>9</int>
+     </void>
+     <void property="shortName">
+      <string>@ManyToOne</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="entity.Chapter">
+     <void property="fullName">
+      <string>Rails</string>
+     </void>
+     <void property="id">
+      <int>11</int>
+     </void>
+     <void property="parentId">
+      <int></int>
+     </void>
+     <void property="shortName">
+      <string>Rails</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="entity.Chapter">
+     <void property="fullName">
+      <string>Routes</string>
+     </void>
+     <void property="id">
+      <int>12</int>
+     </void>
+     <void property="parentId">
+      <int>11</int>
+     </void>
+     <void property="shortName">
+      <string>Routes</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="entity.Chapter">
+     <void property="fullName">
+      <string>Gems</string>
+     </void>
+     <void property="id">
+      <int>12</int>
+     </void>
+     <void property="parentId">
+      <int>11</int>
+     </void>
+     <void property="shortName">
+      <string>Gems</string>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>

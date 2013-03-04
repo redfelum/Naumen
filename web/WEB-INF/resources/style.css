@@ -1,0 +1,26 @@
+
+#menu{
+    background: #d3d3d3;
+    width:300px;
+    min-width: 300px;
+    height: 100%;
+    float:left;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+#content{
+    float:left;
+}
+
+#header{
+    background: #e0ffff;
+    height:100px;
+}
+span.error{
+    color: red;
+}
+
+
+OL { counter-reset: item }
+LI { display: block }
+LI:before { content: counters(item, ".") " "; counter-increment: item }
